@@ -1,0 +1,50 @@
+# """
+# Controller for app
+# """
+
+# # IMPORTS for methods
+# # Future Methods to implement
+# from src import user_register, invoice_delete_by_id, invoice_create, invoice_report, invoice_lookup
+# from flask import Blueprint, request, jsonify
+# from werkzeug.exceptions import BadRequest
+
+# # TODO token
+# @invoice_api.route("/invoice_report", methods=["GET"])
+# def invoices_report():
+#     """ generate the report given a correct ID and report format wanted
+#     """
+#     payload : dict = request.get_json()
+#     if payload is None:
+#         raise BadRequest
+#     return jsonify(invoice_report(payload.get("id", None), payload.get("report_type")))
+
+# # Future build
+# @user_api.route("/register", methods=["POST"])
+# def users_register():
+#     """ Get some JSON or format tbd and process in app
+#     """
+#     payload : dict = request.get_json()
+#     if payload is None:
+#         raise BadRequest
+#     return jsonify(user_register(payload.get("Username", None), payload.get("Password", None)))
+
+# # TODO
+# @invoice_api.route("/delete-by-id", methods=["DELETE"])
+# def invoices_delete_by_id():
+#     """ Delete an invoice by id
+#     """
+#     payload : dict = request.get_json()
+#     if payload is None:
+#         raise BadRequest
+#     return jsonify(invoice_delete_by_id(payload.get("id", None)))
+
+# # Forgot the name, uhh TODO
+# @invoice_api.route("/invoice_lookup", methods=["GET"])
+# def invoices_lookup():
+#     """ lookup for an invoice given an correct ID 
+#     """
+#     payload : dict = request.get_json()
+#     if payload is None:
+#         raise BadRequest
+#     return jsonify(invoice_lookup_by_id(payload.get("id", None)))
+

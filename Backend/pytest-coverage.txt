@@ -1,0 +1,21 @@
+Name                           Stmts   Miss  Cover
+--------------------------------------------------
+src/__init__.py                    0      0   100%
+src/app/__init__.py                0      0   100%
+src/app/app.py                    39     39     0%
+src/app/auth.py                   36      2    94%
+src/app/config.py                  2      2     0%
+src/app/error.py                   7      0   100%
+src/app/helper.py                 35      5    86%
+src/app/invoice.py                57      0   100%
+src/app/invoices.py               16      0   100%
+src/app/reports.py                16      0   100%
+src/echo.py                        4      1    75%
+tests/__init__.py                  0      0   100%
+tests/test_auth.py                31      0   100%
+tests/test_echo.py                 5      0   100%
+tests/test_invoice_upload.py      44      0   100%
+tests/test_invoices.py            24      0   100%
+tests/test_reports.py             24      0   100%
+--------------------------------------------------
+TOTAL                            340     49    86%

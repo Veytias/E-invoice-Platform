@@ -1,0 +1,304 @@
+{
+	"Invoice":
+	{
+		"cbc:UBLVersionID": "2.1",
+		"cbc:CustomizationID": "urn:cen.eu:en16931:2017#conformant#urn:fdc:peppol.eu:2017:poacc:billing:international:aunz:3.0",
+		"cbc:ProfileID": "urn:fdc:peppol.eu:2017:poacc:billing:01:1.0",
+		"cbc:ID": "EBWASP1002",
+		"cbc:IssueDate": "2022-02-07",
+		"cbc:InvoiceTypeCode":
+		{
+			"@value": "380",
+			"@attributes":
+			{
+				"listAgencyID": "6",
+				"listID": "UNCL1001"
+			}
+		},
+		"cbc:DocumentCurrencyCode":
+		{
+			"@value": "AUD",
+			"@attributes":
+			{
+				"listAgencyID": "6",
+				"listID": "ISO4217"
+			}
+		},
+		"cbc:BuyerReference": "EBWASP1002",
+		"cac:AdditionalDocumentReference":
+		{
+			"cbc:ID": "ebwasp1002"
+		},
+		"cac:AccountingSupplierParty":
+		{
+			"cac:Party":
+			{
+				"cac:PartyIdentification":
+				{
+					"cbc:ID":
+					{
+						"@value": "80647710156",
+						"@attributes":
+						{
+							"schemeAgencyID": "ZZZ",
+							"schemeID": "0151"
+						}
+					}
+				},
+				"cac:PartyName":
+				{
+					"cbc:Name": "Ebusiness Software Services Pty Ltd"
+				},
+				"cac:PostalAddress":
+				{
+					"cbc:StreetName": "100 Business St",
+					"cbc:CityName": "Dulwich Hill",
+					"cbc:PostalZone": "2203",
+					"cac:Country":
+					{
+						"cbc:IdentificationCode":
+						{
+							"@value": "AU",
+							"@attributes":
+							{
+								"listAgencyID": "6",
+								"listID": "ISO3166-1:Alpha2"
+							}
+						}
+					}
+				},
+				"cac:PartyLegalEntity":
+				{
+					"cbc:RegistrationName": "Ebusiness Software Services Pty Ltd",
+					"cbc:CompanyID":
+					{
+						"@value": "80647710156",
+						"@attributes":
+						{
+							"schemeAgencyID": "ZZZ",
+							"schemeID": "0151"
+						}
+					}
+				}
+			}
+		},
+		"cac:AccountingCustomerParty":
+		{
+			"cac:Party":
+			{
+				"cac:PartyName":
+				{
+					"cbc:Name": "Awolako Enterprises Pty Ltd"
+				},
+				"cac:PostalAddress":
+				{
+					"cbc:StreetName": "Suite 123 Level 45",
+					"cbc:AdditionalStreetName": "999 The Crescent",
+					"cbc:CityName": "Homebush West",
+					"cbc:PostalZone": "2140",
+					"cac:Country":
+					{
+						"cbc:IdentificationCode":
+						{
+							"@value": "AU",
+							"@attributes":
+							{
+								"listAgencyID": "6",
+								"listID": "ISO3166-1:Alpha2"
+							}
+						}
+					}
+				},
+				"cac:PartyLegalEntity":
+				{
+					"cbc:RegistrationName": "Awolako Enterprises Pty Ltd"
+				}
+			}
+		},
+		"cac:PaymentMeans":
+		{
+			"cbc:PaymentMeansCode":
+			{
+				"@value": "1",
+				"@attributes":
+				{
+					"listAgencyID": "6",
+					"listID": "UNCL4461"
+				}
+			},
+			"cbc:PaymentID": "EBWASP1002"
+		},
+		"cac:PaymentTerms":
+		{
+			"cbc:Note": "As agreed"
+		},
+		"cac:TaxTotal":
+		{
+			"cbc:TaxAmount":
+			{
+				"@value": "10.00",
+				"@attributes":
+				{
+					"currencyID": "AUD"
+				}
+			},
+			"cac:TaxSubtotal":
+			{
+				"cbc:TaxableAmount":
+				{
+					"@value": "100.00",
+					"@attributes":
+					{
+						"currencyID": "AUD"
+					}
+				},
+				"cbc:TaxAmount":
+				{
+					"@value": "10.00",
+					"@attributes":
+					{
+						"currencyID": "AUD"
+					}
+				},
+				"cac:TaxCategory":
+				{
+					"cbc:ID":
+					{
+						"@value": "S",
+						"@attributes":
+						{
+							"schemeAgencyID": "6",
+							"schemeID": "UNCL5305"
+						}
+					},
+					"cbc:Percent": "10.0",
+					"cac:TaxScheme":
+					{
+						"cbc:ID":
+						{
+							"@value": "GST",
+							"@attributes":
+							{
+								"schemeAgencyID": "6",
+								"schemeID": "UN\/ECE 5153"
+							}
+						}
+					}
+				}
+			}
+		},
+		"cac:LegalMonetaryTotal":
+		{
+			"cbc:LineExtensionAmount":
+			{
+				"@value": "100.00",
+				"@attributes":
+				{
+					"currencyID": "AUD"
+				}
+			},
+			"cbc:TaxExclusiveAmount":
+			{
+				"@value": "100.00",
+				"@attributes":
+				{
+					"currencyID": "AUD"
+				}
+			},
+			"cbc:TaxInclusiveAmount":
+			{
+				"@value": "110.00",
+				"@attributes":
+				{
+					"currencyID": "AUD"
+				}
+			},
+			"cbc:PayableRoundingAmount":
+			{
+				"@value": "0.00",
+				"@attributes":
+				{
+					"currencyID": "AUD"
+				}
+			},
+			"cbc:PayableAmount":
+			{
+				"@value": "110.00",
+				"@attributes":
+				{
+					"currencyID": "AUD"
+				}
+			}
+		},
+		"cac:InvoiceLine":
+		{
+			"cbc:ID": "1",
+			"cbc:InvoicedQuantity":
+			{
+				"@value": "500.0",
+				"@attributes":
+				{
+					"unitCode": "C62",
+					"unitCodeListID": "UNECERec20"
+				}
+			},
+			"cbc:LineExtensionAmount":
+			{
+				"@value": "100.00",
+				"@attributes":
+				{
+					"currencyID": "AUD"
+				}
+			},
+			"cac:Item":
+			{
+				"cbc:Name": "pencils",
+				"cac:ClassifiedTaxCategory":
+				{
+					"cbc:ID":
+					{
+						"@value": "S",
+						"@attributes":
+						{
+							"schemeAgencyID": "6",
+							"schemeID": "UNCL5305"
+						}
+					},
+					"cbc:Percent": "10.0",
+					"cac:TaxScheme":
+					{
+						"cbc:ID":
+						{
+							"@value": "GST",
+							"@attributes":
+							{
+								"schemeAgencyID": "6",
+								"schemeID": "UN\/ECE 5153"
+							}
+						}
+					}
+				}
+			},
+			"cac:Price":
+			{
+				"cbc:PriceAmount":
+				{
+					"@value": "0.20",
+					"@attributes":
+					{
+						"currencyID": "AUD"
+					}
+				},
+				"cbc:BaseQuantity":
+				{
+					"@value": "1.0",
+					"@attributes":
+					{
+						"unitCode": "C62",
+						"unitCodeListID": "UNECERec20"
+					}
+				}
+			}
+		}
+	}
+}
